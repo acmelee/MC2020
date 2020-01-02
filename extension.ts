@@ -44,7 +44,7 @@ namespace hourOfCode {
             "say hi"
         
         )
-        agent.getitemdetail(0)
+        agent.getitemcount(0)
     }
 
     /**
