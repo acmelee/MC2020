@@ -49,10 +49,15 @@ namespace hourOfCode {
     /**
      * Opens a gate
      */
-    //% block="ooopen gate"
+    //% block="3open gate"
     //% weight=90
     export function openDoor() {
-        completeTask()
+        mobs.execute(
+            mobs.target(TargetSelectorKind.NearestPlayer),
+            positions.create(0, 0, 0),
+            "say hi"
+        
+        )
     }
 
     /**
