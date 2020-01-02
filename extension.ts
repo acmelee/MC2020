@@ -41,7 +41,7 @@ namespace hourOfCode {
         mobs.execute(
             mobs.target(TargetSelectorKind.NearestPlayer),
             positions.create(0, 0, 0),
-            "say hi"
+            "say hi1111"
         
         )
         agent.getitemcount(0)
